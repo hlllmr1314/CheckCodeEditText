@@ -2,6 +2,8 @@
 高仿钉钉验证码输入框
  
 ## Demo
+![Demo picture](https://raw.githubusercontent.com/hlllmr1314/CheckCodeEditText/master/stepper-example.gif)
+
  
 # Usage
 Add it in your root build.gradle at the end of repositories:
