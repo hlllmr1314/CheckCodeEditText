@@ -100,7 +100,7 @@ public class CheckCodeEditText extends LinearLayout {
 
             if (codeViews.size() > 0 && s.length() == codeViews.size()) {
                 if (listener != null)
-                    listener.finish();
+                    listener.checkCodeFinish();
             }
         }
 

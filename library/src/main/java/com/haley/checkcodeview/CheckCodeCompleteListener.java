@@ -5,6 +5,6 @@ package com.haley.checkcodeview;
  */
 public interface CheckCodeCompleteListener {
 
-    void finish();
+    void checkCodeFinish();
 
 }

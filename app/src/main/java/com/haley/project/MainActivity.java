@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements CheckCodeComplete
     }
 
     @Override
-    public void finish() {
+    public void checkCodeFinish() {
         Toast.makeText(this, "finish input code" +codeEditText.getText() , Toast.LENGTH_LONG).show();
     }
 }
