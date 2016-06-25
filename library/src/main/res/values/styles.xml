@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CheckCodeEditTextStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#474747</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CheckCodeLineStyle">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/checkcode_line</item>
+    </style>
+</resources>
