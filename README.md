@@ -1,5 +1,5 @@
-# CheckCodeEditText
-高仿钉钉验证码输入框
+# CheckCodeEditText [![](https://jitpack.io/v/hlllmr1314/CheckCodeEditText.svg)](https://jitpack.io/#hlllmr1314/CheckCodeEditText)
+高仿钉钉验证码输入框 
  
 ## Demo
 ![Demo picture](https://raw.githubusercontent.com/hlllmr1314/CheckCodeEditText/master/stepper-example.gif)
@@ -30,6 +30,13 @@ Step 3. Add the `com.haley.checkcodeview.CheckCodeEditText` to your layout XML f
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
          />
+```
+
+Step 4. add Listener and get text
+```
+	 this.codeEditText = (CheckCodeEditText) findViewById(R.id.checkcode_view);
+	 codeEditText.addCompleteListener(this);//add Listener
+	 codeEditText.getText();//get text
 ```
 
 ## License
